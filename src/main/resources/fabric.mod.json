@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "techieswashere",
+  "version": "${version}",
+  "name": "Minecraft but Techies was here",
+  "description": "Just normal minecraft, but techies is in the enemy team.",
+  "authors": [
+    "martinspp"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/techieswashere/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "techieswashere.techieswashere"
+    ],
+    "client": ["techieswashere.mine.ProximityMineClient"],
+    "server": []
+  },
+  "mixins": [
+    "techieswashere.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.2",
+    "fabric": "*"
+  }
+}

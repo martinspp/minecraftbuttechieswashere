@@ -1,0 +1,19 @@
+{
+  "proximity_mine_primed": {
+    "sounds": [
+      "techieswashere:land_mine_primed"
+    ]
+  },
+  "proximity_mine_explode": {
+    "sounds": [
+      "techieswashere:land_mine01",
+      "techieswashere:land_mine02"
+    ]
+  },
+  "proximity_mine_death": {
+    "sounds": [
+      "techieswashere:coins"
+    ]
+  }
+}
+
